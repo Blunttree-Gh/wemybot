@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-color: #121212;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
 }
 
 .App-logo {
@@ -19,13 +23,69 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-top: 40px;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+/* WemyBot Chat Styles */
+.chat-box {
+  background: #1e1e1e;
+  padding: 16px;
+  border-radius: 10px;
+  height: 300px;
+  overflow-y: auto;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+}
+
+.message {
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  word-wrap: break-word;
+}
+
+.message.bot {
+  background-color: #2d2d2d;
+  color: #00d1ff;
+}
+
+.message.user {
+  background-color: #3f3f3f;
+  color: #ffffff;
+  text-align: right;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+}
+
+.input-area button {
+  background-color: #61dafb;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 @keyframes App-logo-spin {

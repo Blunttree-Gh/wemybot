@@ -1,0 +1,27 @@
+.upload-container {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.upload-container input {
+  margin: 20px 0;
+}
+
+.upload-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.result-box {
+  margin-top: 30px;
+  text-align: left;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f0f0f0;
+  padding: 15px;
+  border-radius: 8px;
+  white-space: pre-wrap;
+}
